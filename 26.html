@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner img {
+            width: 100%;
+            vertical-align: bottom;
+        }
+
+        .item-group {
+            width: 100%;
+            max-width: 1400px;
+            margin: auto;
+        }
+
+        .title {
+            margin: 0 0 20px;
+            padding: 30px 10px;
+            background-color: thistle;
+        }
+
+        .title h2 {
+            text-align: center;
+            font-size: 46px;
+        }
+
+        .title p {
+            font-size: 22px;
+            text-align: center;
+        }
+
+        .item {
+            padding: 0 0 40px;
+        }
+
+        .item .text h3 {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .item .text p {
+            padding: 0 10px 0;
+        }
+
+        .item .pic img {
+            width: 100%;
+        }
+
+        .service {
+            margin: 60px 0;
+            background-color: blanchedalmond;
+        }
+
+        .service .item .pic img {
+            vertical-align: bottom;
+        }
+
+        .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        @media screen and (min-Width: 768px) {
+            .item-group {
+                display: flex;
+            }
+
+            .item {
+                padding: 0 10px 40px;
+                width: 500px;
+            }
+
+            .service .item {
+                width: 100%;
+                padding: 0;
+                display: flex;
+            }
+
+            .service .item .pic {
+                width: 50%;
+            }
+
+            .service .item .text {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 0px 20px;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <img src="https://picsum.photos/1400/500?random=1">
+    </div>
+
+    <div class="about">
+        <div class="wrap">
+            <div class="title">
+                <h2>關於我們</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed recusandae corporis natus cum minus
+                    saepe illo accusantium fuga vero dignissimos.</p>
+            </div>
+            <div class="item-group">
+                <div class="item">
+                    <div class="pic">
+                        <img src="https://picsum.photos/300/200?random2">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, deserunt? Dolores maiores alias
+                            dignissimos veniam amet. Dolorem soluta, facilis repudiandae explicabo quas vero assumenda,
+                            rerum sint animi nemo quia odio velit provident? Ipsam totam iusto aliquam sit deleniti vero
+                            et
+                            ab nemo placeat fuga minima amet facilis eius molestias cupiditate, facere in fugiat aperiam
+                            ratione accusamus! Voluptas laudantium fugiat numquam.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="pic">
+                        <img src="https://picsum.photos/300/200?random=3">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet possimus consectetur minus
+                            inventore recusandae repudiandae in rerum harum dicta, soluta, officia reiciendis magni
+                            odio,
+                            mollitia beatae debitis molestias. Autem nihil minus tempore, enim ipsam repellat id, harum
+                            eligendi amet placeat explicabo quisquam veniam magni architecto voluptas aperiam ducimus?
+                            Nobis
+                            quis voluptatibus tempore autem id ut excepturi minima quo doloremque impedit!</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="pic">
+                        <img src="https://picsum.photos/300/200?random=4">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet possimus consectetur minus
+                            inventore recusandae repudiandae in rerum harum dicta, soluta, officia reiciendis magni
+                            odio,
+                            mollitia beatae debitis molestias. Autem nihil minus tempore, enim ipsam repellat id, harum
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="service">
+        <div class="wrap">
+            <div class="item-group">
+                <div class="item">
+                    <div class="pic">
+                        <img src="https://picsum.photos/300/200?random5">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, deserunt? Dolores maiores alias
+                            dignissimos veniam amet. Dolorem soluta, facilis repudiandae explicabo quas vero assumenda,
+                            rerum sint animi nemo quia odio velit provident? Ipsam totam iusto aliquam sit deleniti vero
+                            et
+                            ab nemo placeat fuga minima amet facilis eius molestias cupiditate, facere in fugiat aperiam
+                            ratione accusamus! Voluptas laudantium fugiat numquam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="wrap">
+            <div class="title">
+                <h2>關於我們</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed recusandae corporis natus cum minus
+                    saepe illo accusantium fuga vero dignissimos.</p>
+            </div>
+            <div class="item-group">
+                <div class="item">
+                    <div class="pic">
+                        <img src="https://picsum.photos/300/200?random6">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, deserunt? Dolores maiores alias
+                            dignissimos veniam amet. Dolorem soluta, facilis repudiandae explicabo quas vero assumenda,
+                            rerum sint animi nemo quia odio velit provident? Ipsam totam iusto aliquam sit deleniti vero
+                            et
+                            ab nemo placeat fuga minima amet facilis eius molestias cupiditate, facere in fugiat aperiam
+                            ratione accusamus! Voluptas laudantium fugiat numquam.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="pic">
+                        <img src="https://picsum.photos/300/200?random=7">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet possimus consectetur minus
+                            inventore recusandae repudiandae in rerum harum dicta, soluta, officia reiciendis magni
+                            odio,
+                            mollitia beatae debitis molestias. Autem nihil minus tempore, enim ipsam repellat id, harum
+                            eligendi amet placeat explicabo quisquam veniam magni architecto voluptas aperiam ducimus?
+                            Nobis
+                            quis voluptatibus tempore autem id ut excepturi minima quo doloremque impedit!</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="pic">
+                        <img src="https://picsum.photos/300/200?random=8">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet possimus consectetur minus
+                            inventore recusandae repudiandae in rerum harum dicta, soluta, officia reiciendis magni
+                            odio,
+                            mollitia beatae debitis molestias. Autem nihil minus tempore, enim ipsam repellat id, harum
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="pic">
+                        <img src="https://picsum.photos/300/200?random=9">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet possimus consectetur minus
+                            inventore recusandae repudiandae in rerum harum dicta, soluta, officia reiciendis magni
+                            odio,
+                            mollitia beatae debitis molestias. Autem nihil minus tempore, enim ipsam repellat id, harum
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; copyright 2021 by Jia Yu
+    </div>
+</body>
+
+</html>
